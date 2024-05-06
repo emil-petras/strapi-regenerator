@@ -76,7 +76,7 @@ const HomePage = () => {
       <Main>
         <HeaderLayout
           title="Regenerator"
-          subtitle=""
+          subtitle="Trigger item update event"
         />
       </Main>
       <ContentLayout>
