@@ -1,6 +1,6 @@
 # Strapi Regenerator plugin
 
-<img src="/docs/Emil_Petras_Strapi_Regenerator_Icon.png" alt="Regenerator Icon" width="160" height="auto" />
+![Regenerator Icon](/docs/Regenerator_Strapi_Icon_Emil_Petras.png)
 
 ## Introduction
 Regenerator is a plugin for <a href="https://github.com/strapi/strapi">Strapi CMS</a> that automates the triggering of update events for Strapi items, streamlining content and media management.
@@ -25,17 +25,17 @@ module.exports = {
 ```
 
 ## Usage
-- The plugin tab should appear on the Admin Dashboard.
+- After refresh the plugin tab should appear on the Admin Dashboard.
 
-<img src="/docs/strapi-menu.png" alt="Dashboard Menu Plugins" width="216" height="auto" />
+![Dashboard Menu Plugins](/docs/strapi-menu.png)
 
 - In the accessed tab you can choose the media items you want to trigger the update for.
 
-<img src="/docs/selection.png" alt="Select the items for regeneration" width="400" height="auto" />
+![Select the items for regeneration](/docs/selection.png)
 
 - And then trigger the update after which you will get the response to the number of updated items.
 
-<img src="/docs/response.png" alt="Response" width="400" height="auto" />
+![Response](/docs/response.png)
 
 ## Features
 For now the Regenerator only supports Media items.
@@ -48,3 +48,13 @@ By default, only the Super Admin has permission to use this plugin. To allow oth
     <li>Select Roles and choose the role you want to edit.</li>
     <li>In the Plugins tab, find Regenerator and check "Manage Plugin".</li>
 </ol>
+
+## Changelog
+
+### [0.1.1] - 2024-05-06
+
+### Fixed
+- image formatting in the README.md
+
+### Changed
+- updated logo

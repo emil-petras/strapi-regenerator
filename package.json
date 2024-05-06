@@ -39,5 +39,16 @@
   "engines": {
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "strapi",
+    "plugin",
+    "media",
+    "regeneration",
+    "content management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emil-petras/strapi-regenerator.git"
+  }
 }
