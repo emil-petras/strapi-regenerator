@@ -1,6 +1,6 @@
 {
   "name": "strapi-regenerator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A plugin for Strapi CMS that automates the triggering of update events for Strapi items, streamlining content and media management.",
   "strapi": {
     "name": "Regenerator",
@@ -36,6 +36,10 @@
       "url": "https://github.com/emil-petras"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emil-petras/strapi-regenerator.git"
+  },
   "engines": {
     "npm": ">=6.0.0"
   },
@@ -46,9 +50,5 @@
     "media",
     "regeneration",
     "content management"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emil-petras/strapi-regenerator.git"
-  }
+  ]
 }
