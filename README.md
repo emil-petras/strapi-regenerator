@@ -58,3 +58,9 @@ By default, only the Super Admin has permission to use this plugin. To allow oth
 
 ### Changed
 - updated logo
+
+### [0.1.2] - 2024-05-06
+
+### Changed
+- added the icon for Dashboard
+- added a header layout subtitle
