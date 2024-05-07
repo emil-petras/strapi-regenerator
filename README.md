@@ -49,6 +49,9 @@ By default, only the Super Admin has permission to use this plugin. To allow oth
     <li>In the Plugins tab, find Regenerator and check "Manage Plugin".</li>
 </ol>
 
+## Thanks
+Icon design thanks to [alexanders.design](https://alexanders.design)
+
 ## Changelog
 
 ### [0.1.1] - 2024-05-06
@@ -64,3 +67,8 @@ By default, only the Super Admin has permission to use this plugin. To allow oth
 ### Changed
 - added the icon for Dashboard
 - added a header layout subtitle
+
+### [0.1.3] - 2024-05-07
+
+### Changed
+- added thanks to readme
