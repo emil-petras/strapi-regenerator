@@ -40,7 +40,7 @@ const HomePage = () => {
     setRegenerating(true);
     
     try {
-      const response = await fetchClient.post('/regenerator/media', { types: values });
+      const response = await fetchClient.post('/strapi-regenerator/media', { types: values });
       if (response.status >= 200 && response.status < 300) {
         console.log('Success:', response.data.message);
         setMessage(response.data.message);

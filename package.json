@@ -1,12 +1,12 @@
 {
   "name": "strapi-regenerator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A plugin for Strapi CMS that automates the triggering of update events for Strapi items, streamlining content and media management.",
   "strapi": {
-    "name": "regenerator",
+    "name": "strapi-regenerator",
     "description": "A plugin that can trigger update event of items.",
     "kind": "plugin",
-    "displayName": "regenerator"
+    "displayName": "strapi-regenerator"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",

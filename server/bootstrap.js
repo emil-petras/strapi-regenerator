@@ -10,7 +10,7 @@ module.exports = ({ strapi }) => {
         section: 'plugins',
         displayName: 'Manage Plugin',
         uid: 'manage',
-        pluginName: 'regenerator',
+        pluginName: 'strapi-regenerator',
         subCategory: 'general',
       }
     ]);

@@ -8,7 +8,7 @@ module.exports = [
       {
         name: 'admin::hasPermissions',
         config: {
-          actions: ['plugin::regenerator.manage'],
+          actions: ['plugin::strapi-regenerator.manage'],
         },
       },],
     },

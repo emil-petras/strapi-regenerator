@@ -22,7 +22,7 @@ export default {
       },
       permissions: [
         {
-          action: "plugin::regenerator.manage",
+          action: "plugin::strapi-regenerator.manage",
           subject: null
         }
       ],
