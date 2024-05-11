@@ -72,3 +72,8 @@ Icon design thanks to [alexanders.design](https://alexanders.design)
 
 ### Changed
 - added thanks to readme
+
+### [0.1.5] - 2024-05-11
+
+### Fixed
+- an issue with the naming
