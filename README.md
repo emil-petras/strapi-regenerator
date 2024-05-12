@@ -77,3 +77,5 @@ Icon design thanks to [alexanders.design](https://alexanders.design)
 
 ### Fixed
 - an issue with the naming
+
+### [0.2.0] - 2024-05-13
