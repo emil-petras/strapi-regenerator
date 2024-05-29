@@ -78,7 +78,12 @@ Icon design thanks to [alexanders.design](https://alexanders.design)
 ### Fixed
 - an issue with the naming
 
-### [0.1.6] - 2024-05-29
+### [0.2.0] - 2024-05-13
+
+### Added
+- implemented update content items page
+
+### [0.2.1] - 2024-05-29
 
 ### Fixed
 - added strapi as peer dependency
