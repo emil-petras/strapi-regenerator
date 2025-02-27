@@ -30,14 +30,26 @@ module.exports = ({ strapi }) => ({
           where: whereCondition
         });
 
-        return Promise.all(items.map(item => strapi.plugins['upload'].services.upload.update(item.id, {
+        return Promise.allSettled(items.map(item => strapi.plugins['upload'].services.upload.update(item.id, {
           updatedAt: new Date().toISOString()
         })));
       }));
 
-      const updatedItems = updates.flat();
+      const processedItems = updates.flat();
+      const updatedItems = processedItems.filter(item => item.status === 'fulfilled').map(item => item.value);
+      const rejectedItems = processedItems.filter(item => item.status === 'rejected').map(item => item.reason);
+
       strapi.log.info(`${updatedItems.length} media items updated successfully.`);
-      ctx.body = { message: `${updatedItems.length} media items updated successfully.` };
+
+      if(rejectedItems.length > 0) {
+        strapi.log.warn(`${rejectedItems.length} media items failed to update.`);
+      }
+
+      let message = `${updatedItems.length} media items updated successfully.`;
+      if (rejectedItems.length > 0) {
+        message += ` ${rejectedItems.length} media items failed to update.`;
+      }
+      ctx.body = { message };
       ctx.status = 200;
     } catch (error) {
       strapi.log.error(`An error occurred: ${error.message}`);
